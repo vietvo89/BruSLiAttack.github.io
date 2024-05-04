@@ -145,7 +145,7 @@ class BruSLeAttack():
         # 2. select new bits to add in
         mask = (num/den * (bias_map))*(1-p)
         idxs = np.where(mask>0)[0]
-        prob = mask[idxs] # => value of 'fail_pix' matr
+        prob = mask[idxs] # => value of 'fail_pix' 
         prob = prob/prob.sum()    
         idx = np.random.choice(idxs,n_p,p=prob,replace=False)
         outp[idx]=1
