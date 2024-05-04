@@ -170,7 +170,7 @@ class BruSLeAttack():
         p = pop[best_idx]
         fp = feval[best_idx]
         
-        # 2. evolution
+        # 2. Learning, Updating and Searching
 
         while not terminate:
 
