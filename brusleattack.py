@@ -115,7 +115,6 @@ class BruSLeAttack():
         return out_a,out_b,n_px
 
 
-# =================================== Method 4 =======================================
     def sampling(self,fail_map,visit_map,bias_map,p,m):
 
         ep = 1e-2
